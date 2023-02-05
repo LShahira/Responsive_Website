@@ -2,6 +2,9 @@ body{
     font-family: 'Cinzel', serif;
     font-size: 20px;
 }
+.moving-pictures{
+
+}
 .carousel-writing{
     color: whitesmoke;
 }
@@ -20,10 +23,7 @@ body{
     font-weight: bold;
 }
 
-.pricing{
-    border: 2px solid black;
-    text-align: center;
-    width: 25%;
 
-    
+.pricing{
+    background-color: antiquewhite;
 }

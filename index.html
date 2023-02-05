@@ -10,7 +10,7 @@
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <!-- web starts -->
@@ -57,61 +57,95 @@
               </div>
             </div>
         </nav>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <section class="moving-pictures">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/weddings/western.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1><span class="carousel-writing">Congratulation</span></h1>
+                        <p><span class="carousel-writing">Marriage is either one of your best decision or your dooms day.</span> </p>
+                        <button class="carousel-button">Book Now</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/weddings/eastern.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1><span class="carousel-writing">Welcome</span></h1>
+                        <p><span class="carousel-writing">Marriage is either one of your best decision or your dooms day.</span> </p>
+                        <button class="carousel-button">Book Now</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/weddings/muslim.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1><span class="carousel-writing">Welcome</span></h1>
+                        <p><span class="carousel-writing">Marriage is either one of your best decision or your dooms day.</span> </p>
+                        <button class="carousel-button">Book Now</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="images/weddings/western.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1><span class="carousel-writing">Congratulation</span></h1>
-                    <p><span class="carousel-writing">Marriage is either one of your best decision or your dooms day.</span> </p>
-                    <button class="carousel-button">Book Now</button>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="images/weddings/eastern.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1><span class="carousel-writing">Welcome</span></h1>
-                    <p><span class="carousel-writing">Marriage is either one of your best decision or your dooms day.</span> </p>
-                    <button class="carousel-button">Book Now</button>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/weddings/muslim.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1><span class="carousel-writing">Welcome</span></h1>
-                    <p><span class="carousel-writing">Marriage is either one of your best decision or your dooms day.</span> </p>
-                    <button class="carousel-button">Book Now</button>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+        </section>
+
     </header>
     <main>
-        <section> <!-- cards of those pricing-->
-            <h1 class="sec-heading">Our Packages</h1>
-            <div class="pricing">
-                <ul>
-                    <h2>Heading</h2>
-                    <li>info1</li>
-                    <li>info2</li>
-                    <li>info3</li>
-                    <li>info4</li>
+        <h1 class="sec-heading">Our Packages</h1>
+        <section>
+            <div class="card" style="width: 20rem;">
+                <div class="card-header">
+                    <h2>Feature 1</h2>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
                 </ul>
-
             </div>
+            <div class="card" style="width: 20rem;">
+                <div class="card-header">
+                    <h2>Feature 1</h2>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <div class="card-header">
+                    <h2>Feature 1</h2>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <div class="card-header">
+                    <h2>Feature 1</h2>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+            </div>
+
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
